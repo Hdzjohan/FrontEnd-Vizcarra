@@ -1,0 +1,25 @@
+{
+  "name": "frontend-vizcarra",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.0",
+    "bootstrap-vue": "^2.22.0",
+    "connect-history-api-fallback": "^2.0.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.8",
+    "express": "~4.16.1",
+    "flexgrid": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.6.0",
+    "morgan": "~1.9.1",
+    "portal-vue": "^2.1.7",
+    "vue": "^3.2.37"
+  }
+}
