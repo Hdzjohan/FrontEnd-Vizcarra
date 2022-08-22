@@ -8,6 +8,9 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  display: flex;
+  min-height: 100vh; 
+  flex-direction: column;
 }
  
 .btn-primary {
@@ -45,6 +48,11 @@ body {
   flex: 0 0 auto;
   margin: 10px;
 }
+
+.box {
+  display: flex;
+}
+
 
 a {
   color: #00B7FF;

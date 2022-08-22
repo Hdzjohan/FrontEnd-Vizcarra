@@ -1,8 +1,6 @@
 var timeleft = 30;
 var isTrue= true;
-var stationcon = new Object();
-stationcon.name;
-stationcon.status;
+var datoSucursales;
 
 const sucursales = [
     { id:1, alias:"SP1", name:"San Pablo Uno", stateconnection:true },
@@ -12,12 +10,17 @@ const sucursales = [
     { id:5, alias:"BOL", name:"Bolivia", stateconnection:true },
 ];
 
+
+
+
 function addLine(texto){
+
 let element = document.getElementById("addNewline");
 element.innerHTML = texto;
 }
 
-function checkstatus(){
+//volver a definir check
+
 var downloadTimer = setInterval(function(){
     if(timeleft<=0 && isTrue==true){
         isTrue=false;
@@ -29,7 +32,7 @@ var downloadTimer = setInterval(function(){
     }}
 },3000);
 
-}
+
 
 function remove(id) 
 	 {
@@ -50,7 +53,9 @@ function goOffline() {
     // Hacer algo más al ir offline
 }
 
-var s = document.getElementById('status');
+function checkstatushtml(statusid){
+var s = document.getElementById(statusid);
+}
 
 setInterval(function () {
   s.className = navigator.onLine ? 'online' : 'offline';

@@ -19,7 +19,7 @@
     "http-errors": "~1.6.3",
     "jquery": "^3.6.0",
     "morgan": "~1.9.1",
-    "portal-vue": "^2.1.7",
-    "vue": "^3.2.37"
+    "nodemon": "^2.0.19",
+    "portal-vue": "^2.1.7"
   }
 }
